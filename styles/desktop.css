@@ -1,0 +1,127 @@
+h6 {
+    color: #e5dada;
+    color: #e59500;
+    color: #840032;
+    color: #002642;
+    color: #02040f;
+}
+
+/************************ Nav1 (mobile) ******************/
+
+#nav1 {
+    display: none;
+}
+
+/************************ Nav2 (desktop) ******************/
+
+#nav2 {
+    display: block;
+    color: white;
+}
+
+#menu {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none;
+    background: black;
+}
+
+#menu li {
+    float: left;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+#menu a {
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu li:hover>ul {
+    display: block;
+}
+
+/* Sous-menu */
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    z-index: 99999;
+    background: black;
+}
+
+#menu ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+#menu ul li:last-child {
+    box-shadow: none;
+}
+
+#menu ul a {
+    padding: 10px;
+    height: auto;
+    line-height: 1;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+}
+
+#menu ul a:hover {
+    background: #888;
+}
+
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid white;
+}
+
+#menu:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/************************ Main ******************/
+
+#photoaccueil {
+    max-width: 900px !important;
+}
+
+#photoaccueil img:nth-child(1) {
+    grid-area: first;
+}
+#photoaccueil img:nth-child(2) {
+    grid-area: second;
+}
+#photoaccueil img:nth-child(3) {
+    grid-area: third;
+}
+
+.real>div>a {
+    font-size: 3vh;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Les lieux insolites dans le Haut-Rhin</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 640px)" href="styles/desktop.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Les lieux insolites dans le Haut-Rhin</h1>
+    </header>
+
+    <nav id="nav1">
+        <div>
+            <img src="img/accueil.png" alt="">
+        </div>
+        <div>
+            <a href="index.html"><h3>Accueil</h3></a>
+            <h3>Les parcours</h3>
+            <a href="parcours1.html">Parcours Autour de Mulhouse</a>
+            <h3>Les lieux insolites</h3>
+            <a href="parcours1.html#canon">Le Grand Canon</a><br>
+            <a href="parcours1.html#oeil">L'Oeil de la Sorcière</a>
+        </div>
+    </nav>
+
+    <nav id="nav2">
+        <ul id="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li>
+                <a href="#">Les parcours</a>
+                <ul>
+                    <li><a href="parcours1.html">Mulhouse et alentours</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Les lieux</a>
+                <ul>
+                    <li><a href="parcours1.html#canon">Le Grand Canon</a></li>
+                    <li><a href="parcours1.html#oeil">L'Oeil de la Sorcière</a></li>
+                </ul>
+            </li>
+            <li><a href="https://heiiinger.github.io/Site-PTUT/">Qui sommes-nous ?</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Parcours Mulhouse et environs</h2>
+        <div id="map"></div>
+        <h3>Plus d'informations ?</h3>
+        <div id="infos">
+            <div id="canon">
+                <h3>Le Grand Canon du Brytzgiberg</h3>
+                <p>
+                    Un recoin peu commun au cœur de la forêt de Zillisheim.
+                    Niché entre Mulhouse et les Vosges, c'est dans ce cadre d'exception que les Allemands, à l'aube de la Première Guerre Mondiale, ont choisi de bâtir un canon monumental. 
+                    Le site est constitué d'une multitude de galerie, reliant chambre à obus et bunker.
+                    Ce canon, d'un calibre de 380mm et possédant un tube de près de 17m, tirait à une cadence d'un tir toutes les quinze minutes.
+                    Il fût bâti entre septembre et décembre 1915. Il eut un rôle important dans les batailles le long du Rhin. Il a en effet tiré près de 40 coups sur Belfort, bien que seuls 14 d'entre eux aient atteint leur cible et soient parvenus à détruire quelques bâtiments de la ville.
+                    Les galeries sont aujourd'hui fermées au public, mais la mairie de Zillisheim les ouvre lors de certaines manifestations.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="oeil">
+                <h3>L'Oeil de la Sorcière</h3>
+                <p>
+                    L'Oeil de la sorcière. Un château médiéval du XIIIe siècle destiné à protéger Thann des envahisseur, tout en affichant la richesse du pouvoir politique de la cité. Il servait principalement de tour de guet et de zone de stockage de marchandise et de chariot.
+                    Cependant, au XVIIe siècle, le château perd tout son pouvoir de protection suite à l'extension des frontières françaises. Louis XIV ordonne sa démolition en 1673. Dès lors, et durant 5 mois, des maçons s'affairent à la démolition de la tour centrale. Une partie de la tour tombe sur son flanc, créant une forme atypique qui sera plus tard surnommé l'Oeil de la sorcière, en référence à la Tour des Sorcières située dans la ville.
+                    Au XIXe siècle, les pentes autours des ruines sont recouvertes de vignobles et des travaux de conservation sont engagés, comme le témoigne l'importance du mortier rouge autours des ruines. Le site est classé monument historique en 1898.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <b>Made by Groupe6 Agency - All rights reserved</b>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
