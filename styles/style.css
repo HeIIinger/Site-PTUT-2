@@ -190,8 +190,21 @@ main>h2 {
 
 /* Page parcours */
 
+/* main>span {
+    height: 20px;
+    width: 20px;
+} */
+
 #map {
     height: 30vh;
+}
+
+#infos {
+    margin: 20px;
+}
+
+#infos p {
+    margin: 10px;
 }
 
 iframe {
