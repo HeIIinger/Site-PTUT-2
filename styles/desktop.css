@@ -108,6 +108,10 @@ h6 {
 
 /************************ Main ******************/
 
+main {
+    padding: 5vw;
+}
+
 #photoaccueil {
     max-width: 900px !important;
 }
